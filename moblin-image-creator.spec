@@ -1,7 +1,7 @@
 %define name moblin-image-creator
 %define version 0.1
 %define git 20070723
-%define release %mkrel 0.%{git}.1
+%define release %mkrel 0.%{git}.2
 %define distname %{name}-%{git}
 
 Summary: Mobile & Internet Linux Development Kit
@@ -16,7 +16,7 @@ Group: Development/Other
 Url: http://www.moblin.org/
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildArch: noarch
-Requires: debootstrap
+Requires: debootstrap dosfstools
 
 %description
 Moblin Image Creator is a tool aimed at making life easier for the
