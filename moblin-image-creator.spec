@@ -1,7 +1,7 @@
 %define name moblin-image-creator
 %define version 0.1
 %define git 20070723
-%define release %mkrel 0.%{git}.3
+%define release %mkrel 0.%{git}.4
 %define distname %{name}-%{git}
 
 Summary: Mobile & Internet Linux Development Kit
