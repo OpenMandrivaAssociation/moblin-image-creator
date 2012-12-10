@@ -49,3 +49,30 @@ rm -rf %{buildroot}
 %{_datadir}/pdk
 %{_datadir}/applications/image-creator.desktop
 %{_sysconfdir}/bash_completion.d/image-creator-completion.bash
+
+
+%changelog
+* Fri Dec 10 2010 Oden Eriksson <oeriksson@mandriva.com> 0.1-0.20070723.4mdv2011.0
++ Revision: 620378
+- the mass rebuild of 2010.0 packages
+
+* Fri Sep 04 2009 Thierry Vignaud <tv@mandriva.org> 0.1-0.20070723.3mdv2010.0
++ Revision: 430083
+- rebuild
+
+* Fri Dec 21 2007 Olivier Blin <oblin@mandriva.com> 0.1-0.20070723.2mdv2009.0
++ Revision: 136602
+- restore BuildRoot
+
+  + Thierry Vignaud <tv@mandriva.org>
+    - kill re-definition of %%buildroot on Pixel's request
+
+* Thu Aug 02 2007 Olivier Blin <oblin@mandriva.com> 0.1-0.20070723.2mdv2008.0
++ Revision: 58235
+- require dosfstools for mkfs.vfat
+
+* Mon Jul 23 2007 Olivier Blin <oblin@mandriva.com> 0.1-0.20070723.1mdv2008.0
++ Revision: 54669
+- initial moblin-image-creator package
+- Create moblin-image-creator
+
