@@ -18,6 +18,7 @@ BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildArch: noarch
 Requires: debootstrap dosfstools
 
+BuildRequires:	make
 %description
 Moblin Image Creator is a tool aimed at making life easier for the
 mobile and embedded developer. The tool is designed to be extremely
